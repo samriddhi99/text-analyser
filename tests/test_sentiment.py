@@ -1,4 +1,4 @@
-from text_analyzer.sentiment import sentiment_score
+from text_analyser.sentiment import sentiment_score
 
 def test_sentiment_positive():
     assert sentiment_score("I love this") > 0
