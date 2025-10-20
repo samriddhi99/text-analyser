@@ -1,4 +1,4 @@
-from text_analyzer.analyzer import word_count, char_count, most_common_words
+from text_analyser.analyser import word_count, char_count, most_common_words
 
 def test_word_count():
     assert word_count("Hello world!") == 2
